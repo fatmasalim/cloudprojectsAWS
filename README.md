@@ -13,3 +13,8 @@ of attaching permissions to users individually.
 
 4. Take a screenshot of the QR code for the MFA and store it in a safe place; this is incase you forget your password or delete the authenticator application as you will not
 be able to access the IAM account without it.
+
+Project 3 ( Hosting a static website on Amazon S£)
+In this project, I unchecked the 'block all public access' option so as to allow public access. However in a real world scenario, NEVER uncheck it unless you have access controls in check.
+
+Before adding the bucket access policy, you will notice a 403 error when you try to access the website. This is because I had unchecked the block all public access option that led us to use bycket policy to enable public access.
